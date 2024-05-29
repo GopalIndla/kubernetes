@@ -37,7 +37,7 @@ spec:
   strategy:
     type: RollingUpdate
     rollingUpdate:
-      maxUnavailable: 10
+      maxUnavailable: 50
   selector:
     matchLabels:
       app: httpd
