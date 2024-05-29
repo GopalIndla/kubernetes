@@ -478,3 +478,7 @@ For example payment pod in payment wants to talk to cart pod in cart nameSpace ?
     $ In payment pod, refer cart svc as cart.cartns.svc.cluster.local
 
 ```
+
+
+### Deployment Strategies : 
+    
