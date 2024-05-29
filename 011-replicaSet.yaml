@@ -19,3 +19,6 @@ spec:
       containers:
       - name: nginx 
         image: nginx:mainline-perl
+
+### Replicaset is not going to support the update of the version from x to y 
+### Main job of the replicaset is to ensure the mentioned number of pods are running or not and that's the main goal. 
