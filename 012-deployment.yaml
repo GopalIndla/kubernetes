@@ -48,6 +48,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: httpd:2.4.59
+        image: httpd:2.4.59-bookworm
         ports:
         - containerPort: 80
