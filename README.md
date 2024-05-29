@@ -5,7 +5,7 @@
 
 ```
     1) Master Nodes 
-
+    
     2) Worker Nodes 
 
     3) Control Pane 
