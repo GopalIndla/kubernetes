@@ -36,7 +36,8 @@ spec:
   replicas: 10
   strategy:
     type: RollingUpdate
-    maxUnavailable: 10 
+    rollingUpdate:
+      maxUnavailable: 10
   selector:
     matchLabels:
       app: httpd
