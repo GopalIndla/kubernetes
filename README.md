@@ -481,4 +481,32 @@ For example payment pod in payment wants to talk to cart pod in cart nameSpace ?
 
 
 ### Deployment Strategies : 
-    
+
+
+
+
+<!-- Assignemt for you all :  -->
+
+1) Taints
+2) Tolerations 
+3) Node Selectors
+4) Node Affinity 
+5) Pod Affinity & Anti Affinity 
+6) Pod Priority & Pre-emption
+
+
+
+### What's next ?
+
+    1) Containerization 
+    2) All these days we have used the containers that are offered on the public docker registry 
+    3) I would like make my own containers using Docker  ( We will take the base images )
+    4) Frontend, user,cart,catalogue, shipping , payment applications should be containerized 
+    5) Those should be hosted on the top of ECR ( Elastic Container Registry )
+    6) CI : Containerization Should Go Throu the Pipeline along with CD.
+
+
+If you're services are running in some namespace-x and if services that are running on namespace-y, then you cannot directly call them with the svc name. It's go through the fully qualified domain name.
+
+    `svcName.svc.nameSpace.cluster.local`
+
