@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: nginx-cnt
-    image: nginx:latest 
+    image: curlimages/curl
     ports:
       - containerPort: 80
     env:
