@@ -508,5 +508,14 @@ For example payment pod in payment wants to talk to cart pod in cart nameSpace ?
 
 If you're services are running in some namespace-x and if services that are running on namespace-y, then you cannot directly call them with the svc name. It's go through the fully qualified domain name.
 
-    `svcName.svc.nameSpace.cluster.local`
+    `svcName.nameSpace.svc.cluster.local`
 
+This is how you can access a service that's available on the top of another cluster.
+   $ curl user-svc.user.svc.cluster.local
+
+
+
+### Metric Server :
+    This helpss you in showing the current utilization of the tops and nodes, using top and on EKS it's now coming as default. So we need to install it.
+
+    kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
